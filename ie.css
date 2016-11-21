@@ -1,0 +1,3 @@
+/* IE10(or earlier): Remove mysterious border */
+a img
+  border: none
