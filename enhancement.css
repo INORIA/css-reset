@@ -1,0 +1,20 @@
+/* https://bitsofco.de/linting-html-using-css/ */
+
+*[style],
+a[href="#"],
+img:not([alt]),
+button:empty,
+a:empty
+{
+  border: 10px solid #f00;
+  min-width: 100px;
+  min-height: 50px;
+  display: block;
+}
+
+html:not([lang]) body,
+html[lang=""] body,
+{
+  background-color: #f00;
+}
+
